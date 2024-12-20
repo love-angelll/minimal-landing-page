@@ -1,1 +1,61 @@
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header */
+.header-image {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Контейнеры ссылок */
+.link-container {
+    margin-bottom: 20px;
+}
+
+/* Ссылки */
+.link-button {
+    display: inline-block;
+    background-color: #008000; /* Зелёный цвет */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+    background-color: #006400; /* Тёмный зелёный */
+}
+
+/* Описание ссылок */
+.link-container p {
+    margin-top: 10px;
+    color: #555555;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .link-button {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+    .link-container p {
+        font-size: 14px;
+    }
+}
 
